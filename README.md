@@ -83,6 +83,20 @@ weighted avg	              0.86	   0.85	     0.85	    831
 
                                 Accuracy 0.8531889290012034
 
+![image](https://user-images.githubusercontent.com/53577768/185780744-040f420f-0ac6-42d6-93b7-8a5f6086273a.png)
+
+To see the success of the model in trading stocks of interest the model was trained once again, this time on all available data. At the output of the model is a signal indicating whether the stocks should be bought or sold, depending on the prediction of further movement of stocks.
+To see how successful this strategy is, we will compare it with the value of stocks without any buying and selling of stocks:
+
+![image](https://user-images.githubusercontent.com/53577768/185780777-8e379c96-d56b-4a8d-8e25-2bf8175ffe7f.png)
+
+Based on the graphs it can be concluded that the profit is multiple. Of course, this is not a realistic picture of the value of this model because the data on which the quality of the model is assessed is the same as the one on which the model was trained.
+Trading simulation
+One way to use this model is as follows:
+
+Half of the virtual money is invested in stocks. Every day, based on the prediction signal, it is chosen whether new 1% of money will be invested in stocks at tomorrow's opening of the stock exchange or 1% of stocks will be sold. Trade is done every day.
+Thus, at the end of 2010, the simulation ended with 45,000 and 233 actions. In addition to this simple investment system, there is much space for improvement. In the case of a regression model and future profit prediction, larger or smaller investments are possible, but not the same amount as in this simulation.
+
 
 
 
