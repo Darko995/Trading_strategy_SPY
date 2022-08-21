@@ -40,12 +40,12 @@ There are several other indicators that show the quality of the model that has b
 
 Classification_report shows some other important indicators of classification quality such as precision, recall and f1 score. Classification report for this model is shown below:
 
-	          precision	  recall	  f1-score	  support
--1	            0.90	       0.84	      0.87	      488
-1	            0.80	       0.87	      0.83	      343
-accuracy			                      0.85	      831
-macro avg	    0.85	       0.86	      0.85	      831
-weighted avg	    0.86	       0.85	      0.85	      831
+	precision	recall	f1-score	support
+-1	0.90	0.84	0.87	488
+1	0.80	0.87	0.83	343
+accuracy			0.85	831
+macro avg	0.85	0.86	0.85	831
+weighted avg	0.86	0.85	0.85	831
 
 Classification accuracy alone can be misleading if you have an unequal number of observations in each class or if you have more than two classes in your dataset.
 Calculating a confusion matrix can give you a better idea of what your classification model is getting right and what types of errors it is making:
