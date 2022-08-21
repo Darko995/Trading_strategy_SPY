@@ -40,12 +40,8 @@ There are several other indicators that show the quality of the model that has b
 
 Classification_report shows some other important indicators of classification quality such as precision, recall and f1 score. Classification report for this model is shown below:
 
-	precision	recall	f1-score	support
--1	0.90	0.84	0.87	488
-1	0.80	0.87	0.83	343
-accuracy			0.85	831
-macro avg	0.85	0.86	0.85	831
-weighted avg	0.86	0.85	0.85	831
+![report1](https://user-images.githubusercontent.com/53577768/185781152-e50dd448-7047-4093-9735-bb3eb665a6e2.png)
+
 
 Classification accuracy alone can be misleading if you have an unequal number of observations in each class or if you have more than two classes in your dataset.
 Calculating a confusion matrix can give you a better idea of what your classification model is getting right and what types of errors it is making:
@@ -70,12 +66,8 @@ As mentioned earlier, Random Forest Classifier has one useful by-product, we cou
 This can be significant for a large number of features, in addition to reducing computationaly cost the omission of non-informative predictors can increase the accuracy of the model.
 Below are all the quality indicators of this model on the test data set:
 
-	                       precision	recall	   f1-score	  support
--1	                         0.90	         0.84	     0.87	    488
-1	                         0.80	         0.87	     0.83	    343
-accuracy			                             0.85	    831
-macro avg	                 0.85	         0.86	     0.85	    831
-weighted avg	                 0.86	         0.85	     0.85	    831
+![report2](https://user-images.githubusercontent.com/53577768/185781160-a5b28721-573d-401a-bce7-ba63d0864a8c.png)
+
 
                                 Confusion Matrix 
                                     [[412 76]
